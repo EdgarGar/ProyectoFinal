@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Archivos css usados-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>Vista General</title>
+    <link rel="stylesheet" type="text/css" href="css/styleGeneral.css"/>
+    <link rel="stylesheet" type="text/css" href="css/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="css/tabstyles.css" />
+    <script src="js/modernizr.custom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+</head>
+   <body>
+   <div class="container">
+       <div class="body"></div>
+       <header class="codrops-header">
+           <h1>ITESM <span>Sistema de Información para Programas Internacionales </span></h1>
+       </header>
+       <section>
+           <div class="tabs tabs-style-tzoid">
+               <nav>
+                   <ul>
+                       <li><a href="#section-tzoid-1" class="icon icon-home"><span>Todos</span></a></li>
+                       <li><a href="#section-tzoid-2" class="icon icon-box"><span>En Proceso</span></a></li>
+                       <li><a href="#section-tzoid-3" class="icon icon-upload"><span>Aceptadas</span></a></li>
+                       <li><a href="#section-tzoid-4" class="icon icon-display"><span>Canceladas</span></a></li>
+                   </ul>
+               </nav>
+               <div class="content-wrap">
+                   <section id="section-tzoid-1">
+                         <table>
+                               <tr>
+                                   <th>Nombre</th>
+                                   <th>Matricula</th><th>Estado</th>
+                               </tr>
+                              <tr>
+                                  <td>Francisco</td>
+                                  <td>A01021690</td>
+                                  <td>A</td>
+                             </tr>
+                             <tr>
+                                 <td>Edgar</td>
+                                 <td>A01021730</td>
+                                 <td>E</td>
+                             </tr>
+                             <tr>
+                                 <td>Erick</td>
+                                 <td>A0133781</td>
+                                 <td>X</td>
+                             </tr>
+                           </table>
+                   </section>
+                   <section id="section-tzoid-2">
+                    <table>
+                               <tr>
+                                   <th>Nombre</th>
+                                   <th>Matricula</th><th>Estado</th>
+                               </tr>
+                              <tr>
+                                  <td>Edgar</td>
+                                 <td>A01021730</td>
+                                 <td>E</td>
+                             </tr>
+                             <tr>
+                                <td>Francisco</td>
+                                  <td>A01021690</td>
+                                  <td>A</td>
+                             </tr>
+                             <tr>
+                                 <td>Erick</td>
+                                 <td>A0133781</td>
+                                 <td>X</td>
+                             </tr>
+                           </table></section>
+                   <section id="section-tzoid-3">
+                    <table>
+                               <tr>
+                                   <th>Nombre</th>
+                                   <th>Matricula</th><th>Estado</th>
+                               </tr>
+                              <tr>
+                                  <td>Erick</td>
+                                 <td>A0133781</td>
+                                 <td>A</td>
+                             </tr>
+                             <tr>
+                                 <td>Edgar</td>
+                                 <td>A01021730</td>
+                                 <td>A</td>
+                             </tr>
+                             <tr>
+                                 <td>Francisco</td>
+                                  <td>A01021690</td>
+                                  <td>A</td>
+                             </tr>
+                           </table></section>
+                   <section id="section-tzoid-4"><p>ninguna</p></section>
+               </div><!-- /content -->
+           </div><!-- /tabs -->
+       </section>
+    </div><!-- /container -->
+    <script src="js/cbpFWTabs.js"></script>
+    <script>
+        (function() {
+            [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+                new CBPFWTabs( el );
+            });
+        })();
+    </script>
+</body>
+</html>

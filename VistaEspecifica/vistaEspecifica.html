@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--Archivos css usados-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>Vista Especifica</title>
+    <link rel="stylesheet" type="text/css" href="../VistaGeneral/css/styleGeneral.css"/>
+    <link rel="stylesheet" type="text/css" href="../VistaGeneral/css/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="../VistaGeneral/css/tabstyles.css" />
+    <script src="../VistaGeneral/js/modernizr.custom.js"></script>
+</head>
+   <body>
+   <div class="container">
+       <div class="body"></div>
+       <header class="codrops-header">
+           <h1>ITESM <span>Vista Especifica </span></h1>
+       </header>
+       <section>
+           <div class="tabs tabs-style-tzoid">
+               <nav>
+                   <ul>
+                       <li><a href="#section-tzoid-1" class="icon icon-home"><span>Aplicacion</span></a></li>
+                   </ul>
+               </nav>
+               <div class="content-wrap">
+                   <section id="section-tzoid-1">
+                         <table>
+                               <tr>
+                                   <th>Nombre</th>
+                                   <th>Matricula</th><th>Estado</th>
+                               </tr>
+                              <tr>
+                                  <td>Francisco</td>
+                                  <td>A01021690</td>
+                                  <td>A</td>
+                             </tr>
+                             <tr>
+                                 <td>Edgar</td>
+                                 <td>A01021730</td>
+                                 <td>E</td>
+                             </tr>
+                             <tr>
+                                 <td>Erick</td>
+                                 <td>A0133781</td>
+                                 <td>X</td>
+                             </tr>
+                           </table>
+                   </section>
+               </div><!-- /content -->
+           </div><!-- /tabs -->
+       </section>
+    </div><!-- /container -->
+    <script src="js/cbpFWTabs.js"></script>
+    <script>
+        (function() {
+            [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+                new CBPFWTabs( el );
+            });
+        })();
+    </script>
+</body>
+</html>
+
