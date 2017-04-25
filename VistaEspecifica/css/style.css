@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+*:focus {
+    outline: none;
+}
+body {
+    font-family: Arial;
+    background-color: #e7ecea;
+    padding: 50px;
+}
+.main {
+    margin: 10px auto;
+    width: 600px;
+}
+.main-screen {
+    background-color: #FFF;
+    padding: 40px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.main-form {
+    text-align: center;
+}
+.app-title {
+    text-align: center;
+    color: #777;
+    margin-top: 10px;
+}
+.content, .content-right {
+    color: #666;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.content-right {
+	position: absolute;
+	left: 50%;
+	margin-left: 20px;
+	margin-top: -295px;
+}
+.content .row {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.content .row-title {
+    display: inline-block;
+    display: box;
+    margin-right: 20px;
+    width: 100px;
+}
+.content .row-content {
+    font-weight: bold;
+}
+.content .row-content-fill {
+	display: inline-block;
+    font-weight: bold;
+    background: #2CC185;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+.content .row-description {
+	display: inline-block;
+    height: 200px;
+    width: 100%;
+    padding: 10px;
+    color: #aaa;
+    border-color: #d0d0d0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+}
+input {
+    text-align: center;
+    background-color: #ECF0F1;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+}
+input:focus {
+    border: 2px solid #3498DB;
+    box-shadow: none;
+}
+.btn {
+    border: 2px solid transparent;
+    background: #2CC185;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 3px;
+    box-shadow: none;
+    transition: 0.25s;
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+}
+.btn:hover {
+    background-color: #20B080;
+}
